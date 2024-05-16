@@ -30,7 +30,7 @@ public class SubstringIndex {
     return -1;
   }
 
-  private int[] getLpsArr(String target) {
+  public int[] getLpsArr(String target) {
     int[] lpsArr = new int[target.length()];
     int length = 0;
     int currentIndex = 1;

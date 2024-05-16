@@ -39,9 +39,15 @@ class SubstringIndexTest {
   @Test
   void substrIndexTutorVersionTest() {
     Assertions.assertEquals(7, this.substringIndex.substrIndexTutorVersion("bbaaaabbbba", "bbba"));
-    /*Assertions.assertEquals(3, this.substringIndex.substrIndexTutorVersion("bababbba", "abb"));
+    Assertions.assertEquals(3, this.substringIndex.substrIndexTutorVersion("bababbba", "abb"));
     Assertions.assertEquals(2, this.substringIndex.substrIndexTutorVersion("inside", "side"));
     Assertions.assertEquals(0, this.substringIndex.substrIndexTutorVersion("inside", "in"));
-    Assertions.assertEquals(-1, this.substringIndex.substrIndexTutorVersion("inside", "code"));*/
+    Assertions.assertEquals(-1, this.substringIndex.substrIndexTutorVersion("inside", "code"));
+  }
+
+  @Test
+  void lpsTest() {
+    int[] lpsArray = this.substringIndex.getLpsArr("aacaaaac");
+    Assertions.assertArrayEquals(new int[]{ 0, 0, 0, 0, 0, 0, 0, 0 }, lpsArray);
   }
 }
