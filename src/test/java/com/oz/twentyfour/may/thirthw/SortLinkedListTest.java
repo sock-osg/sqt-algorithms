@@ -1,8 +1,8 @@
 package com.oz.twentyfour.may.thirthw;
 
-import static com.oz.challenges.utils.LinkedList.Node;
+import static com.oz.challenges.model.LinkedList.Node;
 
-import com.oz.challenges.utils.LinkedList;
+import com.oz.challenges.model.LinkedList;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

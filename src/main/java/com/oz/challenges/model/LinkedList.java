@@ -1,4 +1,4 @@
-package com.oz.challenges.utils;
+package com.oz.challenges.model;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
